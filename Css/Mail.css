@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  body {
+    font-family: "Sixtyfour", sans-serif;
+    background-color: #d8dada;
+    font-size: 19px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  header {
+    width: 98%;
+  }
+
+  .logo {
+    max-width: 170px;
+    margin: 3% 0 3% 3%;
+    float: left;
+  }
+  .logo-bubble {
+    position:sticky;
+    translate: -50%;
+    max-width: 130px;
+    margin:1% 0 3% 0%;
+    float:left;
+    display: inline-flex;
+
+    float: left;
+  }
+  .text{
+    position:relative;
+    margin: 3.4% 0.1% 0.1% 0;
+    display:inline-flex;
+    translate: -220%;
+    text-align:center;
+    max-width: 10%; 
+    max-height: 12%;
+    font-size:10px;
+    color:rgb(102, 232, 158);
+    float: left;
+   
+  }
+
+  .wrapper {
+    background: linear-gradient(113deg, rgba(90, 29, 151, 0.854) -0.15%, #9a3a98eb 88.91%), url(../Img/border.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .logos-mail {
+    float: right;
+    margin: 3% 2% 4% 3%;
+    list-style-type: none;
+    
+    
+  }
+
+  .logos-mail > li {
+    display: inline;
+  }
+
+  .logos-mail > li > a > img {
+    max-width: 150px;
+    background-color: #9e42a31a;
+    
+  }
+
+
+  .Description h1,
+  p {
+    margin: 3%;
+    border-color: #303840;
+    
+  }
+  .Description > h1{
+    color: black;
+  }
+  .Description{
+    color:rgba(153, 139, 139, 0.927);
+    &:hover{
+      color: rgb(240, 235, 235);
+    }
+  }
+  .btn {
+    float: right;
+    margin: 0 2% 4% 0;
+    background-color: #63207b;
+    color: #979ba0;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 8px 12px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    &:hover{
+      color:rgb(100, 185, 188);
+      
+    }
+  }
+/* hr es el href*/
+  hr {
+    height: 1px;
+    background-color: #303840;
+    clear: both;
+    width: 96%;
+    margin: auto;
+  }
+
+  .contact {
+    text-align: center;
+    padding-bottom: 3%;
+    line-height: 16px;
+    font-size: 12px;
+    color: #4b8fd3;
+  
+     
+    
+  }

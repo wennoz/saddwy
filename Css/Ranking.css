@@ -1,0 +1,59 @@
+.col-6 {
+    margin: 140px;
+    position: fixed;
+}
+
+.container-fluid {
+    font-family: petrona;
+}
+
+.letras {
+    font-size: 20px;
+}
+
+.podio {
+    margin-left: 10%;
+}
+
+.Borde {
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 5px;
+    width: 69%;
+}
+
+.Bordes{
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 5px;
+    width: 69%;
+}
+
+.imagen2{
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 10px;
+    width: 74%;   
+}
+
+.logo {
+    max-height: 80%;
+}
+
+.navegar {
+    background-color: rgb(119, 87, 160);
+    position: fixed;
+}
+
+.Posicion {
+    margin-top: 10%;
+}
+
+.imagen{
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.titulo{
+    margin-right: 247px;
+}

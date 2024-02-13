@@ -1,0 +1,130 @@
+* {
+    font-family: Petrona;
+}
+
+.ovalo_blanco {
+    width: 122px;
+    height: 28px;
+    position: absolute;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.ovalo_blanco_1 {
+    top: 110px;
+    right: 167px;
+}
+
+.ovalo_blanco_2 {
+    top: 166px;
+    right: 205px;
+}
+
+.ovalo_blanco_3 {
+    bottom: 91px;
+    left: 198px;
+}
+
+.ovalo_blanco_4 {
+    bottom: 147px;
+    left: 162px;
+}
+
+.circulo {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.circulo_1 {
+    /* top modifica el lugar en donde esta, moviendose de arriba hacia abajo */
+    top: 112px;
+    right: 130px;
+}
+
+.circulo_2 {
+    bottom: 148px;
+    left: 124px;
+}
+
+.ovalo_morado {
+    width: 122px;
+    height: 28px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.ovalo_morado_1 {
+    background: #3C0F57;
+    top: 138px;
+    right: 175px;
+}
+
+.ovalo_morado_2 {
+    background: #431358;
+    bottom: 119px;
+    left: 176px;
+}
+
+.fondo_atras {
+    height: 100vh;
+    background: radial-gradient(249.51% 131.7% at 100% 90.72%, #602160 0%, #280652 76.04%);
+}
+
+.fondo_delante {
+    background: white;
+    border-radius: 40px;
+}
+
+.iconos {
+    max-width: 6%;
+}
+
+.ingresar_datos {
+    background-color: #ECDEF2;
+    width: 100%;
+}
+
+.iniciar_sesion {
+    background-color: #7757A0;
+    color: white;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.iniciar_sesion:hover {
+    border-color: #584079;
+}
+
+.recordar_password {
+    background-color: #ECDEF2;
+    margin-top: 2%;
+}
+
+.separador {
+    width: 44%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 3%;
+}
+
+.google_png {
+    max-width: 8%;
+    margin-right: 4%;
+}
+
+.datos_incorrectos {
+    border-color: red;
+}
+
+.datos_incorrectos:focus {
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+.imagen{
+    width: 260px;
+    height: auto;
+}

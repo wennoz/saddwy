@@ -1,0 +1,55 @@
+.buscar {
+    border-radius: 50px;
+}
+
+.principal {
+    border: none;
+    border-radius: 50px;
+    background: radial-gradient(921.23% 94.27% at 5.86% 42.44%, #B5FE7D 0%, rgba(213, 255, 180, 0.71) 49.2%, rgba(79, 166, 10, 0.00) 100%);
+}
+
+.cartas {
+    border: none;
+}
+
+.carta1 {
+    border-radius: 15px;
+    background-color: #B8D5FF;
+}
+
+.carta2 {
+    border-radius: 15px;
+    background-color: #FFAFA0;
+}
+
+.carta3 {
+    border-radius: 15px;
+    background-color: #FDFFB2;
+}
+
+.logo1 {
+    background-color: #C3DCFF;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.logo2 {
+    background-color: #FFB2A4;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.logo3 {
+    background-color: #FDFFC7;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+a {
+    text-decoration: none;
+}
+
+.texto {
+    font-size: 0.95rem;
+}
+
+.titulo {
+    font-size: 1.0rem;
+}

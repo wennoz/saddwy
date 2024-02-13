@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaddWy</title>
+    <link rel="stylesheet" href="../../Css/bootstrap.css">
+    <link rel="stylesheet" href="../../Css/styles_inicio.css">
+    <script src="https://kit.fontawesome.com/e5bbca6d11.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div id="menu" class=" row d-done d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu   fs-4  flex-column">
+            <div class=" row my-2 mb-4 d-flex">
+                <button  id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png" alt=""></button>
+                <img class="logo" src="../../Img/Gray-removebg-preview.png" alt="">  
+            </div>
+            <a href="#" class=" my-3 ms-2 text-white" style="text-decoration: none;"><img
+                    src="../../Img/Icono_inicio.png" width="10%"> Inicio</a>
+            <a href="Manual_usuario.html" class="my-3 ms-2 text-white" style="text-decoration: none;"><img
+                    src="../../Img/Icono_ManualUsuario.png" width="10%"> Manual de usuario</a>
+            <a href="https://www.gmail.com" class="my-3 ms-2 text-white" style="text-decoration: none;"><img
+                    src="../../Img/Icono_Contactanos.png" width="10%"> Contactenos</a>
+            <a href="Perfil.html" class="my-3 ms-2 text-white" style="text-decoration: none;"><img
+                    src="../../Img/Icono_Perfil.png" width="10%"> Perfil</a>
+            <a href="Ranking.html" class="my-3 ms-2 text-white" style="text-decoration: none;"><img
+                    src="../../Img/Icono_Ranking.png" width="10%"> Ranking</a>
+             <div class="imagen">
+                <img class="mt-1 ms-2 poster" src="../../Img/inicio.png" >
+             </div>
+        </div>
+        <div class="col ">
+            <nav class="row p-2 ">
+                <div class="col-1 d-none d-md-none d-xl-block col-lg-1"></div>
+                <div class="col order-1 order-md-1 col-md-1">
+                    <button id="abrir" class="btn abrir-menu"><img src="../../Img/bar-de-hamburguesas.png" alt=""></button>
+                </div>
+                <div class="col-11 order-3 order-md-2 col-md-7 col-lg-4">
+                    <form class="d-flex col-12 my-1" role="search">
+                        <input class="form-control input_buscar" type="search" placeholder="Buscar"
+                            aria-label="Search">
+                        <button class="btn boton_buscar">
+                            <img src="../../Img/buscar.png" class="lupa" alt="">
+                        </button>
+                    </form>
+                </div>
+                <div class="col-6 order-2 order-md-3 col-md-3 col-lg-4  order-xl-1">
+                    <div class="dropdown  col-3">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="../../Img/foto_usuario.png" alt="Foto del usurio" style="max-width: 20%;">
+                            Tatiana Charry
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="../../index.html">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row d-flex flex-row-reverse mt-4 mb-5">
+                <div class="card col-10 col-lg-7 carta">
+                    <div class="card-body">
+                        <h5 class="fs-3"><strong>¡Programa tu futuro desde cero con SaddWy!</strong></h5>
+                        <p class="fs-4">¿Que quieres aprender hoy?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex  justify-content-center flex-row-reverse seccion_lenguajes">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 my-lg-0 mx-lg-4 ">
+                    <div class="card" style="background-color: #FDFFB2; border: none; border-radius: 15px;">
+                        <div class="bola" style="background-color: #FDFFC7;">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img
+                                    src="../../Img/Icono_JavaScript.png" class="lenguaje_img"></a>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0 mt-2">JavaScript</h5>
+                            <a href="../actividades/JavaScript_variable.html" class="btn my-1 btn_nivel btn_javascript">
+                                <strong>Nivel 1:</strong> variable<span
+                                    class="badge bg-primary rounded-pill ms-2">50%</span>
+                            </a>
+                            <a href="#" class="btn my-1 btn_nivel btn_javascript"><strong>Nivel 2:</strong>
+                                Condicionales</a>
+                            <a href="#" class="btn my-1 btn_nivel btn_javascript"><strong>Nivel 3:</strong>
+                                Bucles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 my-lg-0 mx-lg-4 " >
+                    <div class="card" style="background-color: #518DE3; border: none; border-radius: 15px;">
+                        <div class="bola" style="background-color: #4F60F3;">
+                            <a href="https://docs.python.org/3/"><img src="../../Img/Icono_Python.png"
+                                    class="lenguaje_img"></a>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0 mt-2">Python</h5>
+                            <a href="../actividades/Python_variable.html"
+                                class="btn btn-primary my-1 btn_nivel btn_python">
+                                <strong>Nivel 1:</strong> variable<span
+                                    class="badge bg-primary rounded-pill ms-2">50%</span>
+                            </a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_python"><strong>Nivel 2:</strong>
+                                Condicionales</a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_python"><strong>Nivel 3:</strong>
+                                Bucles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 my-lg-0 mx-lg-4" >
+                    <div class="card" style="background-color: #A6CAFF; border: none; border-radius: 15px;">
+                        <div class="bola" style="background-color: #87B7FE;">
+                            <a href="https://docs.oracle.com/en/java/"><img src="../../Img/Icono_Java.png"
+                                    class="lenguaje_img"></a>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0 mt-2">Java</h5>
+                            <a href="../actividades/Java_variable.html" class="btn my-1 btn_nivel btn_java">
+                                <strong>Nivel 1:</strong> variable<span
+                                    class="badge bg-primary rounded-pill ms-2">0%</span>
+                            </a>
+                            <a href="#" class="btn my-1 btn_nivel btn_java">
+                                <strong>Nivel 2:</strong> Condicionales
+                            </a>
+                            <a href="#" class="btn my-1 btn_nivel btn_java"><strong>Nivel 3:</strong>
+                                Bucles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center flex-row-reverse seccion_lenguajes">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 my-lg-0 mx-lg-4" >
+                    <div class="card" style="background-color: #EF923C; border: none; border-radius: 15px;">
+                        <div class="bola" style="background-color: #FEA554;">
+                            <a href="https://developer.apple.com/documentation/swift"><img
+                                    src="../../Img/Icono_Swift.png" class="lenguaje_img"></a>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0 mt-2">Swift</h5>
+                            <a href="../actividades/Switch_variable.html"
+                                class="btn btn-primary my-1 btn_nivel btn_swift">
+                                <strong>Nivel 1:</strong> variable<span
+                                    class="badge bg-primary rounded-pill ms-2">50%</span>
+                            </a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_swift"><strong>Nivel 2:</strong>
+                                Condicionales</a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_swift"><strong>Nivel 3:</strong>
+                                Bucles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 my-lg-0 mx-lg-4" ">
+                    <div class="card" style="background-color: #B8D5FF; border: none; border-radius: 15px;">
+                        <div class="bola" style="background-color: #C3DCFF;">
+                            <a href="https://www.php.net/docs.php"><img src="../../Img/Icono_PHP.png"
+                                    class="lenguaje_img"></a>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0 mt-2">PHP</h5>
+                            <a href="../actividades/Php_variable.html" class="btn btn-primary my-1 btn_nivel btn_php">
+                                <strong>Nivel 1:</strong> variable<span
+                                    class="badge bg-primary rounded-pill ms-2">100%</span>
+                            </a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_php"><strong>Nivel 2:</strong>
+                                Condicionales</a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_php"><strong>Nivel 3:</strong>
+                                Bucles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 my-lg-0 mx-lg-4" >
+                    <div class="card" style="background-color: #A054FF80; border: none; border-radius: 15px;">
+                        <div class="bola" style="background-color: #DCC2FE;">
+                            <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img
+                                    src="../../Img/Icono_Csharp.png" class="lenguaje_img"></a>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0 mt-2">C sharp</h5>
+                            <a href="../actividades/Csharp_variable.html" class="btn btn-primary my-1 btn_nivel btn_c">
+                                <strong>Nivel 1:</strong> variable<span
+                                    class="badge bg-primary rounded-pill ms-2">50%</span>
+                            </a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_c"><strong>Nivel 2:</strong>
+                                Condicionales</a>
+                            <a href="#" class="btn btn-primary my-1 btn_nivel btn_c"><strong>Nivel 3:</strong>
+                                Bucles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="row bg-primary p-4 d-md-flex justify-content-center">
+            <div class="d-none d-md-block col-md-6 order-md-1 col-lg-3">    
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="../../Img/logo-negro.png" class="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aspernatur.</p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 col-lg-3">
+                <h4>Contactanos</h4>
+                <ul>
+                    <li>3158626452</li>
+                    <li>correpejemplo@gmial.com</li>
+                    <li>sawy</li>
+                    <li>sawy</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md order-md-3 col-lg-3">
+                <h4>Miembros</h4>
+                <ul>
+                    <li>3158626452</li>
+                    <li>correpejemplo@gmial.com</li>
+                    <li>sawy</li>
+                    <li>sawy</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.2/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+<script src="../../Js/principal.js"></script>
