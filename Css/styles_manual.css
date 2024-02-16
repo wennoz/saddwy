@@ -2,6 +2,86 @@
     font-family: petrona;
 }
 
+.menu_item {
+    text-decoration: none;
+}
+
+.temas {
+    width: 30rem;
+    border: none;
+}
+
+.titulo_inicio {
+    max-width: 20%;
+}
+
+.titulo_cantactar {
+    max-width: 13%;
+}
+
+.titulo_perfil {
+    max-width: 21%;
+}
+
+.titulo_ranking {
+    max-width: 16%;
+}
+
+.carta_lenguaje {
+    max-width: 49%;
+    margin-top: 16%;
+}
+
+.carta_java {
+    background-color: #A6CAFF;
+    border: none;
+    border-radius: 15px;
+}
+
+.carta_logo_java {
+    background-color: #87B7FE;
+}
+
+.carta_javascript {
+    background-color: #FDFFB2;
+}
+
+.carta_logo_javascript {
+    background-color: #FDFFC7;
+}
+
+.carta_python {
+    background-color: #518DE3;
+}
+
+.carta_logo_python {
+    background-color: #4F60F3;
+}
+
+.carta_swift {
+    background-color: #EF923C;
+}
+
+.carta_logo_swift {
+    background-color: #FEA554;
+}
+
+.carta_php {
+    background-color: #B8D5FF;
+}
+
+.carta_logo_php {
+    background-color: #C3DCFF;
+}
+
+.carta_csharp {
+    background-color: #A054FF80;
+}
+
+.carta_logo_csharp {
+    background-color: #DCC2FE;
+}
+
 .navegar {
     background-color: rgb(119, 87, 160);
     position: fixed;

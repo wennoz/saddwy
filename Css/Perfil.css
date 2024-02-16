@@ -1,3 +1,28 @@
+.menu_item {
+    text-decoration: none;
+}
+
+.nombre_usuario {
+    font-size: 40px;
+}
+
+.dias_racha {
+    font-size: 35px;
+}
+
+.dias_sobrantes {
+    background-color: #D9D9D9;
+}
+
+.progreso_lenguaje {
+    max-width: 650px;
+}
+
+.barra_progreso {
+    width: 45%;
+    background-color: #68fc65;
+}
+
 .navegar {
     background-color: rgb(119, 87, 160);
     position: fixed;
@@ -42,6 +67,8 @@
 
 .bordes {
     border-radius: 40px;
+    max-width: 900px;
+    background-color: rgb(204, 254, 166);
 }
 
 .racha {

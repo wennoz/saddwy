@@ -2,6 +2,14 @@
     font-family: Petrona;
 }
 
+.fondo {
+    background: radial-gradient(249.51% 131.7% at 100% 90.72%, #602160 0%, #280652 76.04%);
+}
+
+.mensaje_error {
+    color: red;
+}
+
 .ovalo_blanco {
     width: 122px;
     height: 28px;

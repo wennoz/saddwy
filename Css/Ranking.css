@@ -1,3 +1,36 @@
+body {
+    background-image: url(../../Img/Conffeti.png);
+}
+
+.menu_item {
+    text-decoration: none;
+}
+
+.lista_podio {
+    margin-left: 15%;
+}
+
+.titulo_podio {
+    font-size: 25px;
+    margin-left: 15%;
+}
+
+.primero_podio {
+    background-color: rgb(198, 159, 26);
+}
+
+.segundo_podio {
+    background-color: rgb(171, 168, 151);
+}
+
+.tercero_podio {
+    background-color: rgb(227, 145, 62);
+}
+
+.titulo_usuario {
+    font-size: 25px;
+}
+
 .col-6 {
     margin: 140px;
     position: fixed;
@@ -22,18 +55,18 @@
     width: 69%;
 }
 
-.Bordes{
+.Bordes {
     border: 1px solid;
     border-radius: 100px;
     padding: 5px;
     width: 69%;
 }
 
-.imagen2{
+.imagen2 {
     border: 1px solid;
     border-radius: 100px;
     padding: 10px;
-    width: 74%;   
+    width: 74%;
 }
 
 .logo {
@@ -49,11 +82,12 @@
     margin-top: 10%;
 }
 
-.imagen{
+.imagen {
     border: 2px solid;
     border-radius: 20px;
+    height: 55%;
 }
 
-.titulo{
+.titulo {
     margin-right: 247px;
 }

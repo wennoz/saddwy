@@ -8,20 +8,37 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container{
+.container {
     transform-style: preserve-3d;
 }
 
-.container .box{
+.barra_progreso {
+    width: 0%;
+    background-color: #68FC65;
+}
+
+.tarjeta_delantera {
+    height: 200px;
+}
+
+.tarjeta_trasera {
+    height: 200px;
+}
+
+.separador {
+    height: 2px;
+}
+
+.container .box {
     position: relative;
-    
+
     height: 300px;
     margin: 20px;
     transform-style: preserve-3d;
@@ -29,7 +46,7 @@ body{
     cursor: pointer;
 }
 
-.container .box .body{
+.container .box .body {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,7 +58,7 @@ body{
 
 
 
-.container .box .body .imgContainer{
+.container .box .body .imgContainer {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,7 +67,7 @@ body{
     transform-style: preserve-3d;
 }
 
-.container .box .body .imgContainer img{
+.container .box .body .imgContainer img {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,7 +76,7 @@ body{
     object-fit: cover;
 }
 
-.container .box .body .content{
+.container .box .body .content {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,39 +88,38 @@ body{
     transform: rotateY(180deg);
 }
 
-.container .box:hover .body{
+.container .box:hover .body {
     transform: rotateY(180deg);
 }
 
-.container .box .body .content div{
+.container .box .body .content div {
     transform-style: preserve-3d;
     padding: 20px;
     background: whitesmoke;
     transform: translateZ(100px);
 }
 
-.container .box .body .content div h3{
+.container .box .body .content div h3 {
     letter-spacing: 1px;
 }
 
-.Boton{
+.Boton {
     border-radius: 100px;
-    background-color: #7757A0; 
+    background-color: #7757A0;
     box-shadow: 2px 2px 5px #7757A0;
 }
 
-.Boton.clicked{
+.Boton.clicked {
     background-color: #5e457f;
     box-shadow: 2px 2px 5px #1a66cc;
 }
 
-.Conti{
+.Conti {
     border-radius: 100px;
-    background-color: #58CC02; 
-     filter: drop-shadow(0px 8px 4px #58A700);
+    background-color: #58CC02;
+    filter: drop-shadow(0px 8px 4px #58A700);
 }
 
-.Conti.clicked{
+.Conti.clicked {
     background-color: #7757A0;
 }
-

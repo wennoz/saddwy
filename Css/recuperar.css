@@ -123,20 +123,21 @@
     box-shadow: 0 0 10px red;
 }
 
-.imagen{
+.imagen {
     width: 260px;
     height: auto;
 }
-.letra{
+
+.letra {
     font-size: 1rem;
 }
 
 @media screen and (min-width:768px) {
-    .letra{
+    .letra {
         font-size: 1.1rem;
     }
 
-    .imagen{
+    .imagen {
         width: 350px;
     }
 }

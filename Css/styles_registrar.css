@@ -115,27 +115,29 @@
     margin-right: 4%;
 }
 
-.imagen{
-   height: auto;
-   width: 150px; 
+.imagen {
+    height: auto;
+    width: 150px;
 }
-.fs-lg-custom{
+
+.fs-lg-custom {
     font-size: 1rem;
 }
 
-@media screen and (min-width: 992px){
-    .imagen{
+@media screen and (min-width: 992px) {
+    .imagen {
         width: 350px;
     }
 
-    .fs-lg-custom{
+    .fs-lg-custom {
         font-size: 1.9rem;
     }
 
-    .letra{
+    .letra {
         font-size: 1.2rem;
     }
-    .formulario{
+
+    .formulario {
         border-radius: 0px 40px 40px 0px
     }
 }
