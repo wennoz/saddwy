@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaddWy</title>
+    <link rel="stylesheet" href="../../Css/bootstrap.css">
+    <link rel="stylesheet" href="../../Css/Java.variablle.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h3 class="mx-3 mt-2">Java: Variable</h3>
+        <div class="progress col-8 mt-5 mx-auto">
+            <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 0%; background-color: #68FC65;"></div>
+        </div>
+        <!--Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators bg-dark">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner p-5">
+                <div class="carousel-item active" style="height: 200px;">
+                    <p class="col-9 mx-auto my-0">
+                        En Java existen diferentes tipos de variables, por ejemplo:<br><br>
+                        <strong>String</strong> almacena texto, como "Hola". Los valores de cadena están entre comillas dobles.<br>
+                        <strong>int</strong> almacena números enteros (números enteros), sin decimales, como 123 o -123.<br>
+                        <strong>float</strong> almacena números de coma flotante, con decimales, como 19,99 o -19,99.<br>
+                        <strong>char</strong> almacena caracteres individuales, como 'a' o 'B'. Los valores de caracteres están entre comillas simples.<br>
+                        <strong>boolean</strong> almacena valores con dos estados: verdadero o falso.
+                    </p>
+                </div>
+                <div class="carousel-item py-5" style="height: 200px;">
+                    <p class="col-9 mx-auto my-0">
+                        Si requiero desarrollar una calculadora científica, por ende el resultado que me debe de dar es el de un número con decimales completo.<br><br>
+                        ¿Qué tipo de variable sería recomendado utilizar?
+                    </p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Opciones-->
+        <div class="col-6 mt-4 mx-auto d-flex justify-content-center">
+            <button class="btn col-2 me-3 Boton " onclick="Cambiar_Color(this)">int</button>
+            <button class="btn col-2 me-3 Boton" onclick="Cambiar_Color(this)">float</button>
+            <button class="btn col-2 me-3 Boton" onclick="Cambiar_Color(this)">String</button>
+        </div>
+        <div class="col-12 bg-dark mt-4 opacity-25" style="height: 2px;"></div>
+        <div class="mt-4 d-flex justify-content-center">
+            <button class="btn Conti col-2 p-3 mb-3">Siguiente</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="../../Js/Preguntas.js"></script>

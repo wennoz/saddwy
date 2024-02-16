@@ -15,21 +15,10 @@
     border-radius: 100px;
 }
 
-.boton_buscar {
-    position: absolute;
-    left: 73%;
-}
-
-.lupa{
-    height: 20px;
-    width: auto;
-}
-
 .carta {
     border: 2px solid;
     border-radius: 50px;
     box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.40);
-    margin-right: 12%;
     height: 150px;
 }
 
@@ -86,64 +75,65 @@
 }
 
 .seccion_lenguajes {
-   padding: 5%;
+    padding: 5%;
 }
 
-.logo{
+.logo {
     width: 145px;
     height: auto;
 }
-.imagen{
-    height: 40%;
+
+.imagen {
+    height: 30%;
     width: auto;
     display: flex;
     align-items: center;
     padding: 5%;
 }
 
-.abrir-menu{
-  display: none;
+.abrir-menu {
+    display: none;
 }
 
-.cerrar-menu{
- width: 70px;
- display: none;
+.cerrar-menu {
+    width: 70px;
+    display: none;
 }
-.visible{
+
+.visible {
     opacity: 1;
     visibility: visible;
 }
-.poster{
+
+.poster {
     height: 160px;
     width: auto;
 }
 
 
 @media screen and (max-width: 577px) {
-    .abrir-menu{
+    .abrir-menu {
         display: block;
     }
 
-    .cerrar-menu{
+    .cerrar-menu {
         display: block;
     }
 }
-@media screen and (min-width:997px){
-    .boton_buscar {
-        position: absolute;
-        left: 62%;
-    }  
+
+@media screen and (min-width:992px) {
+    .busqueda {
+        margin-right: 11%;
+        padding-left: 0px;
+    }
 }
+
 @media screen and (min-width: 768px) {
-    .boton_buscar {
-        position: absolute;
-        left: 60%;
-    }
-    .abrir-menu{
+    .abrir-menu {
         display: block;
     }
 
-    .cerrar-menu{
+    .cerrar-menu {
         display: block;
     }
 }

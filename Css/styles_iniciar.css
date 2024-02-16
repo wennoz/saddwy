@@ -68,11 +68,6 @@
     left: 176px;
 }
 
-.fondo_atras {
-    height: 100vh;
-    background: radial-gradient(249.51% 131.7% at 100% 90.72%, #602160 0%, #280652 76.04%);
-}
-
 .fondo_delante {
     background: white;
     border-radius: 40px;
@@ -124,7 +119,52 @@
     box-shadow: 0 0 10px red;
 }
 
-.imagen{
+.imagen {
     width: 260px;
     height: auto;
+}
+
+@media screen and (min-width: 1300px) {
+    .ovalo_blanco_1 {
+        top: 17.1%;
+        right: 13%;
+    }
+
+    .ovalo_blanco_2 {
+        top: 25.9%;
+        right: 15%;
+    }
+
+    .ovalo_blanco_3 {
+        bottom: 6%;
+        left: 15%;
+    }
+
+    .ovalo_blanco_4 {
+        bottom: 14.7%;
+        left: 13%;
+    }
+
+    .circulo_1 {
+        /* top modifica el lugar en donde esta, moviendose de arriba hacia abajo */
+        top: 17.1%;
+        right: 10%;
+    }
+
+    .circulo_2 {
+        bottom: 14.7%;
+        left: 10%;
+    }
+
+    .ovalo_morado_1 {
+        background: #3C0F57;
+        top: 21.6%;
+        right: 12%;
+    }
+
+    .ovalo_morado_2 {
+        background: #431358;
+        bottom: 10.3%;
+        left: 11%;
+    }
 }
