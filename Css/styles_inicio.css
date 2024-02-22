@@ -2,9 +2,6 @@
     font-family: petrona;
 }
 
-.items_menu {
-    text-decoration: none;
-}
 
 .foto_perfil {
     max-width: 20%;
@@ -61,13 +58,6 @@
 
 .carta_logo_csharp {
     background-color: #DCC2FE;
-}
-
-.menu {
-    background-color: rgb(119, 87, 160);
-    position: fixed;
-    height: 100vh;
-    z-index: 10;
 }
 
 .input_buscar {
@@ -152,6 +142,17 @@
     padding: 5%;
 }
 
+.items_menu {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: rgb(119, 87, 160);
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+}
+
 .abrir-menu {
     display: none;
 }
@@ -165,12 +166,6 @@
     opacity: 1;
     visibility: visible;
 }
-
-.poster {
-    height: 160px;
-    width: auto;
-}
-
 
 @media screen and (max-width: 577px) {
     .abrir-menu {

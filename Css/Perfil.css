@@ -1,5 +1,13 @@
-.menu_item {
-    text-decoration: none;
+* {
+    font-family: petrona;
+}
+
+.foto_perfil {
+    max-width: 20%;
+}
+
+.contenedor1 {
+    order: -1;
 }
 
 .nombre_usuario {
@@ -29,12 +37,11 @@
     width: 17%;
 }
 
-.Perfil {
-    font-family: petrona;
-}
+
 
 .carta {
     margin-left: 20%;
+    position: relative;
 }
 
 .Borde {
@@ -96,4 +103,64 @@
     width: 650px;
     height: 25px;
     border-radius: 30px;
+}
+
+.logo {
+    width: 145px;
+    height: auto;
+}
+
+.items_menu {
+    text-decoration: none;
+}
+
+.imagen2 {
+    height: 30%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.menu {
+    background-color: rgb(119, 87, 160);
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+}
+
+.abrir-menu {
+    display: none;
+}
+
+.cerrar-menu {
+    width: 70px;
+    display: none;
+}
+
+@media screen and (max-width: 577px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .cerrar-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .busqueda {
+        margin-right: 11%;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .cerrar-menu {
+        display: block;
+    }
 }

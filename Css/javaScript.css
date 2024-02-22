@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+/* Estilos para el textarea */
+#codigo {
+    background-color: #222b39; /* Fondo azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    border: none; /* Eliminar borde por defecto */
+    padding: 10px; /* Espacio interno */
+    font-family: monospace; /* Fuente de tipo monoespaciada para mantener la alineación */
+  }
+  
+.borde {
+    border: solid 2px #68FC65;
+}
+
+.container {
+    transform-style: preserve-3d;
+}
+
+.barra_progreso {
+    width: 0%;
+    background-color: #68FC65;
+}
+
+.tarjeta_delantera {
+    height: 200px;
+}
+
+.tarjeta_trasera {
+    height: 200px;
+}
+
+.separador {
+    height: 2px;
+}
+
+.Boton {
+    border-radius: 100px;
+    background-color: #7757A0;
+    box-shadow: 2px 2px 5px #7757A0;
+}
+
+.Boton.clicked {
+    background-color: #5e457f;
+    box-shadow: 2px 2px 5px #1a66cc;
+}
+
+.Conti {
+    border-radius: 100px;
+    background-color: #58CC02;
+    filter: drop-shadow(0px 8px 4px #58A700);
+}
+
+.Conti.clicked {
+    background-color: #7757A0;
+}
+
+.volver {
+    margin-top: 5px;
+    margin-right: 85%;
+    position: absolute;
+    padding: 1%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 90ms;
+}
+
+.volver:hover{
+    border: 1px solid #58CC02;
+    border-radius: 30px;
+    background-color: #cdecb5;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width:997px){
+  .volver{
+    margin-right: 90%;
+  }  
+}
