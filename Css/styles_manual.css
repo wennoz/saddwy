@@ -152,3 +152,72 @@
 .btn_c {
     background-color: #DCC2FE;
 }
+
+.foto_perfil {
+    max-width: 20%;
+}
+
+.logo {
+    width: 145px;
+    height: auto;
+}
+
+.imagen_menu {
+    height: 30%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.items_menu {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: rgb(119, 87, 160);
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+}
+
+.abrir-menu {
+    display: none;
+}
+
+.cerrar-menu {
+    width: 70px;
+    display: none;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 577px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .cerrar-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .busqueda {
+        margin-right: 11%;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .cerrar-menu {
+        display: block;
+    }
+}

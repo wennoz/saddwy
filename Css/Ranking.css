@@ -1,5 +1,3 @@
-
-
 .menu_item {
     text-decoration: none;
 }
@@ -27,14 +25,14 @@
 
 .titulo_usuario {
     font-size: 25px;
-}
+} 
 
-.col-6 {
+/* .col-6 {
     margin: 140px;
     position: fixed;
-}
+}  */
 
-.container-fluid {
+ .container-fluid {
     font-family: petrona;
 }
 
@@ -43,7 +41,7 @@
 }
 
 .podio {
-    margin-left: 10%;
+    position: absolute;
 }
 
 .Borde {
@@ -67,25 +65,88 @@
     width: 74%;
 }
 
-.logo {
-    max-height: 80%;
-}
+
 
 .navegar {
     background-color: rgb(119, 87, 160);
     position: fixed;
 }
 
-.Posicion {
+ .Posicion {
     margin-top: 10%;
 }
 
 .imagen {
     border: 2px solid;
     border-radius: 20px;
-    height: 55%;
+    height: 50%;
 }
 
 .titulo {
     margin-right: 247px;
+} 
+
+.logo {
+    width: 145px;
+    height: auto;
+}
+
+.imagen_menu {
+    height: 30%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.items_menu {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: rgb(119, 87, 160);
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+}
+
+.abrir-menu {
+    display: none;
+}
+
+.cerrar-menu {
+    width: 70px;
+    display: none;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 577px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .cerrar-menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .busqueda {
+        margin-right: 11%;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .cerrar-menu {
+        display: block;
+    }
 }
