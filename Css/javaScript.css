@@ -48,20 +48,47 @@ body {
 }
 
 .Boton {
-    border-radius: 100px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
     background-color: #7757A0;
-    box-shadow: 2px 2px 5px #7757A0;
+    color: white;
+    font: bold;
+    transition: 200ms;
+}
+
+
+.Boton:hover{
+    border: solid 1px #7757A0;
+    background-color: white;
+    color: #7757A0;
 }
 
 .Boton.clicked {
-    background-color: #5e457f;
-    box-shadow: 2px 2px 5px #1a66cc;
+    background-color: #ffffff;
+    border:solid 3px #7757A0;
+    box-shadow: 2px 2px 5px #7757A0;
+    color: #7757A0;
 }
+.btnSiguiente{
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #3D9DF2;
+    color: white;
+    font: bold;
+    transition: 200ms;
+}
+.btnSiguiente:hover{
+    background-color: #4696db;
+}
+
 
 .Conti {
     border-radius: 100px;
-    background-color: #58CC02;
-    filter: drop-shadow(0px 8px 4px #58A700);
+    background-color: #3D9DF2;
+    /* filter: drop-shadow(0px 8px 4px #3D9DF2); */
 }
 
 .Conti.clicked {
@@ -79,6 +106,9 @@ body {
     justify-content: center;
     align-items: center;
     transition: 90ms;
+}
+.color{
+    background-color: #F7F0FF;
 }
 
 .volver:hover{
