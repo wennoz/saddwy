@@ -26,13 +26,14 @@
     max-width: 650px;
 } */
 
+
 .barra_progreso {
     width: 45%;
     background-color: #68fc65;
 }
 
 .navegar {
-    background-color: rgb(119, 87, 160);
+    background-color: #4C428C;
     position: fixed;
     width: 17%;
 }
@@ -123,7 +124,7 @@
 }
 
 .menu {
-    background-color: rgb(119, 87, 160);
+    background-color: #4C428C;
     position: fixed;
     height: 100vh;
     z-index: 10;

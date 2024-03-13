@@ -6,42 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranking</title>
     <link rel="stylesheet" href="../../Css/bootstrap.css">
-    <link rel="stylesheet" href="../../Css/styles_inicio.css">
+    <link rel="stylesheet" href="../../Css/menu.css">
     <link rel="stylesheet" href="../../Css/Ranking.css">
     <script src="https://kit.fontawesome.com/e5bbca6d11.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div id="menu" class="row d-none d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
-            <div class=" row my-2 mb-4 d-flex">
-                <button id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png"
-                        alt=""></button>
-                <img class="logo" src="../../Img/Gray-removebg-preview.png" alt="">
-            </div>
-            <a href="#" class=" my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_inicio.png" width="10%">
-                Inicio</a>
-            <a href="Manual_usuario.html" class="my-2 ms-2 text-white items_menu"><img
-                    src="../../Img/Icono_ManualUsuario.png" width="10%"> Manual de usuario</a>
-            <a href="https://www.gmail.com" class="my-2 ms-2 text-white items_menu"><img
-                    src="../../Img/Icono_Contactanos.png" width="10%"> Contactenos</a>
-            <a href="Perfil.html" class="my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_Perfil.png"
-                    width="10%"> Perfil</a>
-            <a href="Ranking.html" class="my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_Ranking.png"
-                    width="10%"> Ranking</a>
-            <div class="imagen_menu">
-                <img class="mt-1 poster img-fluid" src="../../Img/inicio.png">
-            </div>
+        <div id="menu"
+        class="row d-none d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
+        <div class="row my-2 mb-4 d-flex justify-content-center align-items-end" style="height: 60px;">
+            <button id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png"
+                    alt=""></button>
+            <img class="logo" style="height: 50px; width: auto;"
+                src="../../Img/SaddWy_ilustraciones/Svg/logo_SaddWy_white.svg" alt="">
         </div>
+        <ul>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="./Principal.html" class=" my-4 ms-5 text-white items_menu d-flex align-items-center">
+                    <img class="mx-1" src="../../Img/Ilustraciones_temporales/icono_inicio_white.svg" width="10%">
+                    Inicio
+                </a>
+            </li>
+            <li class="my-5 item d-flex align-items-center ">
+                <a href="Perfil.html" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                        style="height: 20px; width: 20px;"
+                        src="../../Img/Ilustraciones_temporales/icono_perfil_white.svg" width="10%"> Perfil</a>
+            </li>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img
+                        class="mx-1" src="../../Img/Ilustraciones_temporales/icono_email_white.svg" width="10%">
+                    Contactenos</a></li>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="Ranking.html" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                        src="../../Img/Ilustraciones_temporales/icono_ranking_white.svg" width="10%"> Ranking</a>
+            </li>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="./manual.html"
+                    class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                        src="../../Img/Ilustraciones_temporales/icono_manual_white.svg" width="10%"> Manual</a>
+                    </li>
+        </ul>
+    </div>
         <nav class="row p-2 d-flex justify-content-between">
             <div class="col order-1 order-md-1 col-md-1">
                 <button id="abrir" class="btn abrir-menu"><img src="../../Img/bar-de-hamburguesas.png"></button>
             </div>
-         
+
             <div class="col-6 order-2 order-md-3 col-md-3 col-lg-2">
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="../../Img/foto_usuario.png" class="foto_perfil" alt="Foto del usurio">
+                        <img style="height: 25px; width: 25px;" src="../../Img/Ilustraciones_temporales/icono_perfil_black.svg" class="foto_perfil" alt="Foto del usurio">
                         Tatiana Charry
                     </button>
                     <ul class="dropdown-menu">
@@ -50,29 +65,27 @@
                 </div>
             </div>
         </nav>
-        <div class="row mt-0 ">
-            <div class="col-3 "></div>
-            <div class="col-5 ">
-                <b class="titulo_podio">Podio de liga</b>
-                <ul class="list-group">
-                    <div class="d-flex flex-row align-items-center">
-                        <li class="d-flex justify-content-between align-items-center Borde primero_podio">
-                            1. Nombre de Usuario
-                            <span class="badge text-dark rounded-pill">90</span>
-                        </li>
-                    </div>
-                    <div class="d-flex flex-row align-items-center">
-                        <li class="d-flex justify-content-between align-items-center mt-2 Borde segundo_podio">
-                            2. Nombre de Usuario
-                            <span class="badge text-dark rounded-pill">80</span>
-                        </li>
-                    </div>
-                    <div class="d-flex flex-row align-items-center">
-                        <li class="d-flex justify-content-between align-items-center mt-2 Borde tercero_podio">
-                            3. Nombre de Usuario
-                            <span class="badge text-dark rounded-pill">70</span>
-                        </li>
-                    </div>
+        <div class="row mt-0">
+            <div class="d-none d-lg-block col-lg-3 "></div>
+            <div class="col-12 col-md-6 col-lg-5 order-2 order-md-1 order-lg-1 justify-content-start">
+                <div style="display: flex; align-items: center;">
+                    <h3 class="titulo_podio col">Podio de liga</h3>
+                    <div class="dividor col-11"></div>
+                </div>
+                
+                <ul class="p-0 ">
+                    <li class="d-flex justify-content-between Bordes ">
+                        1. Nombre de Usuario
+                        <span class="badge text-dark rounded-pill">90</span>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                        2. Nombre de Usuario
+                        <span class="badge text-dark rounded-pill">80</span>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                        3. Nombre de Usuario
+                        <span class="badge text-dark rounded-pill">70</span>
+                    </li>
                     <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
                         4. Nombre de Usuario
                         <span class="badge text-dark rounded-pill">60</span>
@@ -140,7 +153,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4 d-flex justify-content-start ">
+            <div class="col-12 col-md-6 col-lg-4 order-1 order-md-2 order-lg-2 justify-content-start ">
                 <div class="col-12 card imagen Posicion text-center">
                     <p class=" titulo_usuario">Posicion del usuario</p>
                     <div class="img-fluid bg-white">
@@ -153,9 +166,6 @@
                 </div>
             </div>
         </div>
-        
-      
-      
     </div>
 </body>
 

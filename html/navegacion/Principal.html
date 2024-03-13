@@ -7,37 +7,51 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="../../Css/bootstrap.css">
     <link rel="stylesheet" href="../../Css/styles_inicio.css">
-    <script src="https://kit.fontawesome.com/e5bbca6d11.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div id="menu" class="row d-none d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
-            <div class=" row my-2 mb-4 d-flex">
+        <div id="menu"
+            class="row d-none d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
+            <div class="row my-2 mb-4 d-flex justify-content-center align-items-end" style="height: 60px;">
                 <button id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png"
                         alt=""></button>
-                <img class="logo" src="../../Img/Gray-removebg-preview.png" alt="">
+                <img class="logo" style="height: 50px; width: auto;"
+                    src="../../Img/SaddWy_ilustraciones/Svg/logo_SaddWy_white.svg" alt="">
             </div>
-            <a href="#" class=" my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_inicio.png" width="10%">
-                Inicio</a>
-            <a href="Manual_usuario.html" class="my-2 ms-2 text-white items_menu"><img
-                    src="../../Img/Icono_ManualUsuario.png" width="10%"> Manual de usuario</a>
-            <a href="https://www.gmail.com" class="my-2 ms-2 text-white items_menu"><img
-                    src="../../Img/Icono_Contactanos.png" width="10%"> Contactenos</a>
-            <a href="Perfil.html" class="my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_Perfil.png"
-                    width="10%"> Perfil</a>
-            <a href="Ranking.html" class="my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_Ranking.png"
-                    width="10%"> Ranking</a>
-            <div class="imagen">
-                <img class="mt-1 poster img-fluid" src="../../Img/inicio.png">
-            </div>
+            <ul>
+                <li class="my-5 item d-flex align-items-center justify-content-center">
+                    <a href="./Principal.html" class=" my-4 ms-5 text-white items_menu d-flex align-items-center">
+                        <img class="mx-1" src="../../Img/Ilustraciones_temporales/icono_inicio_white.svg" width="10%">
+                        Inicio
+                    </a>
+                </li>
+                <li class="my-5 item d-flex align-items-center ">
+                    <a href="Perfil.html" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                            style="height: 20px; width: 20px;"
+                            src="../../Img/Ilustraciones_temporales/icono_perfil_white.svg" width="10%"> Perfil</a>
+                </li>
+                <li class="my-5 item d-flex align-items-center justify-content-center">
+                    <a href="" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img
+                            class="mx-1" src="../../Img/Ilustraciones_temporales/icono_email_white.svg" width="10%">
+                        Contactenos</a></li>
+                <li class="my-5 item d-flex align-items-center justify-content-center">
+                    <a href="Ranking.html" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                            src="../../Img/Ilustraciones_temporales/icono_ranking_white.svg" width="10%"> Ranking</a>
+                </li>
+                <li class="my-5 item d-flex align-items-center justify-content-center">
+                    <a href="./manual.html"
+                        class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                            src="../../Img/Ilustraciones_temporales/icono_manual_white.svg" width="10%"> Manual</a>
+                        </li>
+            </ul>
         </div>
         <nav class="row p-2 d-flex justify-content-between">
             <div class="col order-1 order-md-1 col-md-1">
                 <button id="abrir" class="btn abrir-menu"><img src="../../Img/bar-de-hamburguesas.png"></button>
             </div>
-            <div class="col-11 order-3 order-md-2 col-md-7 col-lg-4 busqueda">
-                <form class="col-12 my-1 position-relative" role="search">
+            <div class="col-12 order-3 order-md-2 col-md-7 col-lg-5 busqueda ">
+                <form class="col-9 my-1 position-relative" role="search">
                     <input class="form-control input_buscar" type="search" placeholder="Buscar" aria-label="Search">
                     <button class="btn position-absolute end-0 top-0">
                         <img src="../../Img/buscar.png" class="img-fluid w-75">
@@ -47,7 +61,8 @@
             <div class="col-6 order-2 order-md-3 col-md-3 col-lg-2">
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="../../Img/foto_usuario.png" class="foto_perfil" alt="Foto del usurio">
+                        <img src="../../Img/SaddWy_ilustraciones/Svg/icono_perfil.svg" class="foto_perfil"
+                            alt="Foto del usurio">
                         Tatiana Charry
                     </button>
                     <ul class="dropdown-menu">
@@ -56,17 +71,20 @@
                 </div>
             </div>
         </nav>
-        <div class="col-lg-11 ms-auto">
-            <div class="row mt-4 mb-5 mb-lg-0">
-                <div class="card col-10 col-lg-8 mx-auto carta">
-                    <div class="card-body">
-                        <h5 class="fs-3"><strong>¡Programa tu futuro desde cero con SaddWy!</strong></h5>
+        <div class=" col-lg-12 ms-5 ">
+            <div class="row mt-5 mb-5 mb-lg-0  " style="position: relative;">
+                <div class="row card col-10 col-lg-8 mx-auto carta"
+                    style="height: 200px; position: relative; overflow: visible; ">
+                    <div class="card-body col-6">
+                        <h5 class="fs-3"><strong>¡Programa tu futuro desde cero <br>con SaddWy!</strong></h5>
                         <p class="fs-4">¿Que quieres aprender hoy?</p>
                     </div>
+                    <img style="width: auto; height: 270px; position: absolute; right: 0;top: -74px;"
+                        src="../../Img/SaddWy_ilustraciones/Svg/inicio.svg" alt="">
                 </div>
             </div>
-            <div class="row d-flex  justify-content-center flex-row-reverse seccion_lenguajes">
-                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4">
+            <div class="row d-flex  justify-content-center flex-row-reverse seccion_lenguajes ml-5">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4 px-lg-5">
                     <div class="card carta_lenguaje carta_javascript">
                         <div class="bola carta_logo_javascript">
                             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img
@@ -74,7 +92,7 @@
                         </div>
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title mb-0 mt-2">JavaScript</h5>
-                            <a href="../actividades/JavaScript_variable.html" class="btn my-1 btn_nivel btn_javascript">
+                            <a href="../actividades/carousel.html" class="btn my-1 btn_nivel btn_javascript">
                                 <strong>Nivel 1:</strong> variable<span
                                     class="badge bg-primary rounded-pill ms-2">50%</span>
                             </a>
@@ -85,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4 px-lg-5">
                     <div class="card carta_lenguaje carta_python">
                         <div class="bola carta_logo_python">
                             <a href="https://docs.python.org/3/"><img src="../../Img/Icono_Python.png"
@@ -105,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4 px-lg-5">
                     <div class="card carta_lenguaje carta_java">
                         <div class="bola carta_logo_java">
                             <a href="https://docs.oracle.com/en/java/"><img src="../../Img/Icono_Java.png"
@@ -125,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4 px-lg-5">
                     <div class="card carta_lenguaje carta_swift">
                         <div class="bola carta_logo_swift">
                             <a href="https://developer.apple.com/documentation/swift"><img
@@ -145,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4 px-lg-5">
                     <div class="card carta_lenguaje carta_php">
                         <div class="bola carta_logo_php">
                             <a href="https://www.php.net/docs.php"><img src="../../Img/Icono_PHP.png"
@@ -164,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4">
+                <div class="col-12 col-md-9 col-lg-3 p-lg-4 my-5 mb-lg-4 mx-lg-4 px-lg-5">
                     <div class="card carta_lenguaje carta_csharp">
                         <div class="bola carta_logo_csharp">
                             <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img

@@ -7,31 +7,47 @@
     <title>borrador</title>
     <link rel="stylesheet" href="../../Css/bootstrap.css">
     <link rel="stylesheet" href="../../Css/styles_manual.css">
+    <link rel="stylesheet" href="../../Css/menu.css">
     <script src="https://kit.fontawesome.com/e5bbca6d11.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div id="menu" class="row d-none d-md-none d-lg-flex align-items-center  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
-            <div class=" row my-2 mb-4 d-flex">
-                <button id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png"
-                        alt=""></button>
-                <img class="logo" src="../../Img/Gray-removebg-preview.png" alt="">
-            </div>
-            <a href="#" class=" my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_inicio.png" width="10%">
-                Inicio</a>
-            <a href="Manual_usuario.html" class="my-2 ms-2 text-white items_menu"><img
-                    src="../../Img/Icono_ManualUsuario.png" width="10%"> Manual de usuario</a>
-            <a href="https://www.gmail.com" class="my-2 ms-2 text-white items_menu"><img
-                    src="../../Img/Icono_Contactanos.png" width="10%"> Contactenos</a>
-            <a href="Perfil.html" class="my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_Perfil.png"
-                    width="10%"> Perfil</a>
-            <a href="Ranking.html" class="my-2 ms-2 text-white items_menu"><img src="../../Img/Icono_Ranking.png"
-                    width="10%"> Ranking</a>
-            <div class="imagen">
-                <img class="mt-1 poster img-fluid" src="../../Img/inicio.png">
-            </div>
+        <div id="menu"
+        class="row d-none d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
+        <div class="row my-2 mb-4 d-flex justify-content-center align-items-end" style="height: 60px;">
+            <button id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png"
+                    alt=""></button>
+            <img class="logo" style="height: 50px; width: auto;"
+                src="../../Img/SaddWy_ilustraciones/Svg/logo_SaddWy_white.svg" alt="">
         </div>
+        <ul>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="./Principal.html" class=" my-4 ms-5 text-white items_menu d-flex align-items-center">
+                    <img class="mx-1" src="../../Img/Ilustraciones_temporales/icono_inicio_white.svg" width="10%">
+                    Inicio
+                </a>
+            </li>
+            <li class="my-5 item d-flex align-items-center ">
+                <a href="Perfil.html" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                        style="height: 20px; width: 20px;"
+                        src="../../Img/Ilustraciones_temporales/icono_perfil_white.svg" width="10%"> Perfil</a>
+            </li>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img
+                        class="mx-1" src="../../Img/Ilustraciones_temporales/icono_email_white.svg" width="10%">
+                    Contactenos</a></li>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="Ranking.html" class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                        src="../../Img/Ilustraciones_temporales/icono_ranking_white.svg" width="10%"> Ranking</a>
+            </li>
+            <li class="my-5 item d-flex align-items-center justify-content-center">
+                <a href="./manual.html"
+                    class="my-4 ms-5 text-white items_menu d-flex align-items-center"><img class="mx-1"
+                        src="../../Img/Ilustraciones_temporales/icono_manual_white.svg" width="10%"> Manual</a>
+                    </li>
+        </ul>
+    </div>
         <nav class="row p-2 d-flex justify-content-between">
             <div class="col order-1 order-md-1 col-md-1">
                 <button id="abrir" class="btn abrir-menu"><img src="../../Img/bar-de-hamburguesas.png"></button>
@@ -39,7 +55,7 @@
             <div class="col-6 order-2 order-md-3 col-md-3 col-lg-2">
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="../../Img/foto_usuario.png" class="foto_perfil" alt="Foto del usurio">
+                        <img src="../../Img/Ilustraciones_temporales/icono_perfil_black.svg" class="foto_perfil" alt="Foto del usurio">
                         Tatiana Charry
                     </button>
                     <ul class="dropdown-menu">
@@ -48,8 +64,9 @@
                 </div>
             </div>
         </nav>
-        <div class="row d-flex justify-content-center cartas">
-            <div class="col col-6 me-5 card temas">
+        <div class="row d-lg-flex justify-content-evenly  cartas">
+            <div class="d-none d-lg-block col-lg-2"></div>
+            <div class="col-12 col-md-8 col-lg-5 card temas">
                 <div class="card-body">
                     <h5 class="card-title col-4 pt-1 fs-4 titulo">
                         <img src="../../Img/Icono_inicio.png" class="titulo_inicio">
@@ -61,7 +78,7 @@
                 </div>
                 <img src="../../Img/inicio_frm.png" class="card-img-top">
             </div>
-            <div class="col col-6 ms-5 card temas">
+            <div class="col-12 col-md-8 col-lg-5 card temas">
                 <div class="card-body">
                     <h5 class="card-title col-6 pt-1 fs-4 titulo">
                         <img src="../../Img/Icono_Contactanos.png" class="titulo_cantactar">
@@ -74,8 +91,9 @@
                 <img src="../../Img/contactenos_frm.png" class="card-img-top">
             </div>
         </div>
-        <div class="row d-flex justify-content-center mt-4 cartas">
-            <div class="col col-6 me-5 card temas">
+        <div class="row d-lg-flex justify-content-evenly mt-4 cartas">
+            <div class="d-none d-lg-block col-lg-2"></div>
+            <div class="col-12 col-md-8 col-lg-5  card temas">
                 <div class="card-body">
                     <h5 class="card-title col-4 pt-1 fs-4 titulo">
                         <img src="../../Img/Icono_Perfil.png" class="titulo_perfil">
@@ -87,7 +105,7 @@
                 </div>
                 <img src="../../Img/perfil_frm.png" class="card-img-bottom">
             </div>
-            <div class="col col-6 ms-5 card temas">
+            <div class="col-12 col-md-8 col-lg-5  card temas">
                 <div class="card-body">
                     <h5 class="card-title col-5 pt-1 fs-4 titulo">
                         <img src="../../Img/Icono_Ranking.png" class="titulo_ranking">
@@ -101,8 +119,9 @@
                 <img src="../../Img/ranking_frm.png" class="card-img-top">
             </div>
         </div>
-        <div class="row d-flex justify-content-center mt-4 cartas">
-            <div class="col col-6 me-5 card temas">
+        <div class="row d-lg-flex justify-content-evenly mt-4 cartas">
+            <div class="d-none d-lg-block col-lg-2"></div>
+            <div class="col-12 col-md-8 col-lg-5 card temas">
                 <div class="card-body">
                     <h5 class="card-title col-3 pt-1 fs-4 text-center ps-0 titulo">Java</h5>
                     <div class="col carta_lenguaje">
@@ -128,7 +147,7 @@
                     <img src="../../Img/java_frm.png" class="card-img-bottom">
                 </div>
             </div>
-            <div class="col col-6 ms-5 card temas">
+            <div class="col-12 col-md-8 col-lg-5 card temas">
                 <div class="card-body">
                     <h5 class="card-title col-4 pt-1 fs-4 text-center ps-0 titulo">Python</h5>
                     <div class="col carta_lenguaje">
@@ -156,8 +175,9 @@
                 </div>
             </div>
         </div>
-        <div class="row d-flex justify-content-center mt-4 cartas">
-            <div class="col col-6 me-5 card temas">
+        <div class="row d-lg-flex justify-content-evenly mt-4 cartas">
+            <div class="d-none d-lg-block col-lg-2"></div>
+            <div class="col-12 col-md-8 col-lg-5  card temas">
                 <div class="card-body">
                     <h5 class="card-title col-4 pt-1 fs-4 text-center ps-0 titulo">JavaScript</h5>
                     <div class="col carta_lenguaje">
@@ -186,7 +206,7 @@
                     <img src="../../Img/JavaScript_frm.png" class="card-img-bottom">
                 </div>
             </div>
-            <div class="col col-6 ms-5 card temas">
+            <div class="col-12 col-md-8 col-lg-5  card temas">
                 <div class="card-body">
                     <h5 class="card-title col-4 pt-1 fs-4 text-center ps-0 titulo">C sharp</h5>
                     <div class="col carta_lenguaje">
@@ -213,8 +233,9 @@
                 </div>
             </div>
         </div>
-        <div class="row d-flex justify-content-center mt-4 cartas">
-            <div class="col col-6 me-5 card temas">
+        <div class="row d-lg-flex justify-content-evenly mt-4 cartas">
+            <div class="d-none d-lg-block col-lg-2"></div>
+            <div class="col-12 col-md-8 col-lg-5 card temas">
                 <div class="card-body">
                     <h5 class="card-title col-3 pt-1 fs-4 text-center ps-0 titulo">PHP</h5>
                     <div class="col carta_lenguaje">
@@ -240,7 +261,7 @@
                     <img src="../../Img/php_frm.png" class="card-img-bottom">
                 </div>
             </div>
-            <div class="col col-6 ms-5 card temas">
+            <div class="col-12 col-md-8 col-lg-5 card temas">
                 <div class="card-body">
                     <h5 class="card-title col-3 pt-1 fs-4 text-center ps-0 titulo">Swift</h5>
                     <div class="col carta_lenguaje">

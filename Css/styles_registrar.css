@@ -38,77 +38,7 @@
     background-color: black;
 }
 
-/* inicio ovalos top */
-.ovalo_blanco {
-    width: 122px;
-    height: 28px;
-    position: absolute;
-    border-radius: 50px;
-    background: #ECDEF2;
-}
 
-.ovalo_blanco_1 {
-    top: 83px;
-    right: 135px
-}
-
-.ovalo_blanco_2 {
-    top: 139px;
-    right: 159px;
-}
-
-.ovalo_morado_1 {
-    background: #3C0F57;
-    top: 111px;
-    right: 124px
-}
-
-.circulo_1 {
-    /* top modifica el lugar en donde esta, moviendose de arriba hacia abajo */
-    top: 82px;
-    right: 101px;
-    background-color: #ECDEF2;
-}
-
-/* inicio ovalos botton */
-.ovalo_blanco_3 {
-    bottom: 24px;
-    left: 155px;
-    background-color: #FFF;
-}
-
-.ovalo_blanco_4 {
-    bottom: 80px;
-    left: 130px;
-    background-color: #FFF;
-}
-
-.circulo {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    border-radius: 100px;
-
-}
-
-.circulo_2 {
-    bottom: 82px;
-    left: 92px;
-    background: #FFF;
-}
-
-.ovalo_morado {
-    width: 122px;
-    height: 28px;
-    position: absolute;
-    border-radius: 50px;
-}
-
-.ovalo_morado_2 {
-    background: #431358;
-    bottom: 52px;
-    left: 130px
-}
 
 .google_png {
     max-width: 8%;

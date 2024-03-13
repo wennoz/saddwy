@@ -145,9 +145,19 @@
 .items_menu {
     text-decoration: none;
 }
+.item{
+    background-color:#4C428C;
+    transition: 300ms;
+    border-radius: 20px;
+    height: 45px; 
+}
+.item:hover{
+    background-color:#5d51a9; 
+   
+}
 
 .menu {
-    background-color: rgb(119, 87, 160);
+    background-color:#4C428C;
     position: fixed;
     height: 100vh;
     z-index: 10;
