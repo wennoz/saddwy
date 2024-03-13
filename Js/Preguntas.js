@@ -10,3 +10,18 @@ function Cambiar_Color(button) {
     // Actualizar el botón actual
     botonActual = button;
 }
+
+function girar(){
+    var card=document.getElementById('card')
+    var card2=document.getElementById('card2')
+
+    card.classList.add('d-none')
+    card2.classList.remove('d-none')
+}
+function volver(){
+    var card=document.getElementById('card')
+    var card2=document.getElementById('card2')
+
+    card2.classList.add('d-none')
+    card.classList.remove('d-none')
+}
