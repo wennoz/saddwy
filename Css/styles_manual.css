@@ -7,7 +7,7 @@
 }
 
 .temas {
-    width: 30rem;
+    /* width: 30rem; */
     border: none;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .carta_lenguaje {
-    max-width: 49%;
-    margin-top: 16%;
+    /* max-width: 49%; */
+    margin-top: 20%;
 }
 
 .carta_java {
@@ -83,7 +83,7 @@
 }
 
 .navegar {
-    background-color: rgb(119, 87, 160);
+    background-color: #4C428C;
     position: fixed;
     width: 17%;
 }
@@ -97,9 +97,9 @@
     color: white;
 }
 
-.cartas {
+/* .cartas {
     margin-left: 15%;
-}
+} */
 
 .bola {
     border-radius: 100px;
@@ -175,7 +175,7 @@
 }
 
 .menu {
-    background-color: rgb(119, 87, 160);
+    background-color:#4C428C;
     position: fixed;
     height: 100vh;
     z-index: 10;
@@ -209,6 +209,10 @@
     .busqueda {
         margin-right: 11%;
         padding-left: 0px;
+    }
+
+    .temas{
+        width: 30rem;
     }
 }
 

@@ -37,6 +37,11 @@ hr {
     font-size: 60px;
 }
 
+.foto_fondo{
+    width: 500px;
+    height: 400px;
+}
+
 @media screen and (max-width:576px) {
     .logo {
         height: auto;

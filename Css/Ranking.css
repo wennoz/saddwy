@@ -48,6 +48,7 @@ ul::-webkit-scrollbar{
     padding: 5px;
     width: 69%;
     background-color: #ebe9f8;
+    
 }
 
 .imagen2 {
@@ -83,6 +84,8 @@ ul::-webkit-scrollbar{
     border: 2px solid;
     border-radius: 20px;
     height: 40%;
+    padding: 5%;
+    /* height: 50%; */
 }
 
 .titulo {
@@ -107,7 +110,7 @@ ul::-webkit-scrollbar{
 }
 
 .menu {
-    background-color: rgb(119, 87, 160);
+    background-color:#4C428C;
     position: fixed;
     height: 100vh;
     z-index: 10;
@@ -126,6 +129,10 @@ ul::-webkit-scrollbar{
     opacity: 1;
     visibility: visible;
 }
+.dividor{
+    height: 1px;
+    background-color: #4C428C;
+}
 
 @media screen and (max-width: 577px) {
     .abrir-menu {
@@ -136,6 +143,7 @@ ul::-webkit-scrollbar{
         display: block;
     }
 }
+
 
 @media screen and (min-width:992px) {
     .busqueda {

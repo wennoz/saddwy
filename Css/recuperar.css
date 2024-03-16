@@ -2,71 +2,7 @@
     font-family: Petrona;
 }
 
-.ovalo_blanco {
-    width: 122px;
-    height: 28px;
-    position: absolute;
-    border-radius: 50px;
-    background: #FFF;
-}
 
-.ovalo_blanco_1 {
-    top: 151px;
-    right: 158px;
-}
-
-.ovalo_blanco_2 {
-    top: 207px;
-    right: 178px;
-}
-
-.ovalo_blanco_3 {
-    bottom: 173px;
-    left: 162px;
-}
-
-.ovalo_blanco_4 {
-    bottom: 229px;
-    left: 135px;
-}
-
-.circulo {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    border-radius: 100px;
-    background: #FFF;
-}
-
-.circulo_1 {
-    /* top modifica el lugar en donde esta, moviendose de arriba hacia abajo */
-    top: 153px;
-    right: 125px;
-}
-
-.circulo_2 {
-    bottom: 233px;
-    left: 101px;
-}
-
-.ovalo_morado {
-    width: 122px;
-    height: 28px;
-    position: absolute;
-    border-radius: 50px;
-}
-
-.ovalo_morado_1 {
-    background: #3C0F57;
-    top: 179px;
-    right: 129px;
-}
-
-.ovalo_morado_2 {
-    background: #431358;
-    bottom: 201px;
-    left: 130px;
-}
 
 .fondo_atras {
     height: 100vh;
