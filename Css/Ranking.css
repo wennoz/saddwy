@@ -7,21 +7,18 @@
 }
 
 .titulo_podio {
-    font-size: 25px;
+    font-size: 50px;
     margin-left: 15%;
 }
-
-.primero_podio {
-    background-color: rgb(198, 159, 26);
+.divisor{
+    width: 40%; 
+    border-bottom: 1px solid rgb(39, 17, 46);
+}
+ul::-webkit-scrollbar{
+    display: none;
 }
 
-.segundo_podio {
-    background-color: rgb(171, 168, 151);
-}
 
-.tercero_podio {
-    background-color: rgb(227, 145, 62);
-}
 
 .titulo_usuario {
     font-size: 25px;
@@ -44,18 +41,13 @@
     position: absolute;
 }
 
-.Borde {
-    border: 1px solid;
-    border-radius: 100px;
-    padding: 5px;
-    width: 69%;
-}
 
 .Bordes {
     border: 1px solid;
     border-radius: 100px;
     padding: 5px;
     width: 69%;
+    background-color: #ebe9f8;
 }
 
 .imagen2 {
@@ -63,6 +55,17 @@
     border-radius: 100px;
     padding: 10px;
     width: 74%;
+}
+.imagen_usuario{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove rgb(221, 172, 23);
 }
 
 
@@ -79,7 +82,7 @@
 .imagen {
     border: 2px solid;
     border-radius: 20px;
-    height: 50%;
+    height: 40%;
 }
 
 .titulo {

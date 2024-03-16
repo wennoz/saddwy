@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranking</title>
     <link rel="stylesheet" href="../../Css/bootstrap.css">
-    <link rel="stylesheet" href="../../Css/styles_inicio.css">
     <link rel="stylesheet" href="../../Css/Ranking.css">
     <script src="https://kit.fontawesome.com/e5bbca6d11.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="container-fluid">
+<body class="overflow-hidden">
+    <div class="container-fluid overflow-hidden">
         <div id="menu" class="row d-none d-md-none d-lg-flex  col-8 col-md-4 col-lg-2  p-0 text-white menu fs-4  flex-column">
             <div class=" row my-2 mb-4 d-flex">
                 <button id="cerrar" class="d-lg-none btn m-0 cerrar-menu"><img src="../../Img/bar-de-hamburguesas.png"
@@ -33,7 +32,8 @@
                 <img class="mt-1 poster img-fluid" src="../../Img/inicio.png">
             </div>
         </div>
-        <nav class="row p-2 d-flex justify-content-between">
+        <!-- navegacion -->
+        <nav class="row  d-flex justify-content-between">
             <div class="col order-1 order-md-1 col-md-1">
                 <button id="abrir" class="btn abrir-menu"><img src="../../Img/bar-de-hamburguesas.png"></button>
             </div>
@@ -51,100 +51,130 @@
             </div>
         </nav>
         <div class="row mt-0 ">
+            <div class="col-12 align-items-center d-flex justify-content-end">
+                <b class="titulo_podio ms-2 ">Podio de liga</b>
+                <div class="dividor" style="border: solid 1px #d3d3d3; width: 50%;"></div>
+            </div>
             <div class="col-3 "></div>
             <div class="col-5 ">
-                <b class="titulo_podio">Podio de liga</b>
-                <ul class="list-group">
+                <ul class="list-group h-75 overflow-auto">
                     <div class="d-flex flex-row align-items-center">
-                        <li class="d-flex justify-content-between align-items-center Borde primero_podio">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
                             1. Nombre de Usuario
                             <span class="badge text-dark rounded-pill">90</span>
                         </li>
                     </div>
                     <div class="d-flex flex-row align-items-center">
-                        <li class="d-flex justify-content-between align-items-center mt-2 Borde segundo_podio">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes">
                             2. Nombre de Usuario
                             <span class="badge text-dark rounded-pill">80</span>
                         </li>
                     </div>
                     <div class="d-flex flex-row align-items-center">
-                        <li class="d-flex justify-content-between align-items-center mt-2 Borde tercero_podio">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
                             3. Nombre de Usuario
                             <span class="badge text-dark rounded-pill">70</span>
                         </li>
                     </div>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        4. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">60</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        5. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">50</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        6. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">40</span>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        7. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">30</span>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        8. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">20</span>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        9. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        10. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        11. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        12. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        13. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        14. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        15. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        16. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        17. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        18. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 Bordes bg-white">
-                        19. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
-                    <li class="d-flex justify-content-between align-items-center mt-2 mb-4 Bordes bg-white">
-                        20. Nombre de Usuario
-                        <span class="badge text-dark rounded-pill">10</span>
-                    </li>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            1. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">90</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes">
+                            2. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">80</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            3. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">70</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            1. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">90</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes">
+                            2. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">80</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            3. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">70</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            1. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">90</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes">
+                            2. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">80</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            3. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">70</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            1. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">90</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes">
+                            2. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">80</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            3. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">70</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            1. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">90</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes">
+                            2. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">80</span>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row align-items-center">
+                        <li class="d-flex justify-content-between align-items-center mt-2 Bordes ">
+                            3. Nombre de Usuario
+                            <span class="badge text-dark rounded-pill">70</span>
+                        </li>
+                    </div>
+                   
                 </ul>
             </div>
-            <div class="col-4 d-flex justify-content-start ">
-                <div class="col-12 card imagen Posicion text-center">
+            <div class="col-3">
+                <div class="col-12 card h-50 shadow text-center">
                     <p class=" titulo_usuario">Posicion del usuario</p>
-                    <div class="img-fluid bg-white">
-                        <img class="m-3" src="../../Img/Imagen_Perfil.png">
+                    <div class="  imagen_usuario
+                        ">
+                        <img class="m-3 " src="../../Img/Imagen_Perfil.png">
                     </div>
                     <li class="d-flex justify-content-between align-items-center imagen2 mx-auto">
                         Nombre de Usuario
